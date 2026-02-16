@@ -275,14 +275,14 @@ ul {
 
 .our-team-item {
   border-radius: 0 0 4px 4px;
-  padding-bottom: 32px;
+  
   width: calc((100% - (24px * 3) / 4));
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   /* background-color: darkgoldenrod; */
 }
 
 .our-team-item img {
-  margin-bottom: 32px;
+  
   width: 100%;
   object-fit: cover;
 }
@@ -291,15 +291,41 @@ ul {
   margin-bottom: 8px;
 }
 
+.our-team-item-description{
+  padding: 32px 16px;
+}
+
 .portfolio-title {
   margin-bottom: 72px;
 }
 
 .portfolio-items {
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 .portfolio-item {
   border: 1px solid var(--accent);
-  padding-bottom: 32px;
+  
+}
+
+.portfolio-item-description{
+  padding: 32px 16px;
+}
+
+.portfolio-item-title{
+  margin-bottom: 8px;
+}
+
+.footer{
+  padding-block: 120px;
+}
+
+.footer-logo{
+  display: block;
+  margin-bottom: 16px;
+}
+
+.footer-text{
+  max-width: 264px;
 }
